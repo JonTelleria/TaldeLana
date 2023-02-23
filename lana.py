@@ -1,20 +1,5 @@
-def pedirNumeroEntero():
- 
-    correcto=False
-    num=0
-    while(not correcto):
-        try:
-            num = int(input("Introduce un numero entero: "))
-            correcto=True
-        except ValueError:
-            print('Error, introduce un numero entero')
-     
-    return num
- 
-salir = False
-opcion = 0
- 
-while not salir:
+i = 1
+while i == 1:
     
     print("******************************************************** ")
     print("******************************************************** ")
@@ -36,11 +21,10 @@ while not salir:
      
     print ("Elige una opcion")
  
-    opcion = pedirNumeroEntero()
+    opcion = int(input("Aukeratu: "))
  
     if opcion == 1:
-        print ("Opcion 1")
-        break
+        juegoAimar = aimar()
     elif opcion == 2:
         print ("Opcion 2")
         break
@@ -48,7 +32,7 @@ while not salir:
         print("Opcion 3")
         break
     elif opcion == 4:
-        salir = True
+        break
     else:
         print ("Introduce un numero entre 1 y 3")
  
