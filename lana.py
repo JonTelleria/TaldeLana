@@ -1,3 +1,5 @@
+def jonenJokoa():
+   
 def pedirNumeroEntero():
  
     correcto=False
