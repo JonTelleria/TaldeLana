@@ -1,3 +1,5 @@
+def aimar():
+
 def pedirNumeroEntero():
  
     correcto=False
@@ -53,3 +55,4 @@ while not salir:
         print ("Introduce un numero entre 1 y 3")
  
 print ("Fin")
+
