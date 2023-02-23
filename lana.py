@@ -1,5 +1,19 @@
+from os import system
+import random
+
+
 def aimar():
+    opcion = str(input("Aukeratu: "))
+    
     tablero()
+    dado = random.randrange(1, 6)
+    if dado == 1 or 2 or 3 or 4 or 6:
+        print(dado)
+        print("Urrengoan izango da!")
+    elif dado == 5:
+        print(dado)
+        system("cls")
+    
     
 def tablero():
     print("_ _ _ _ _")
