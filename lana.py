@@ -1,11 +1,6 @@
 import random 
-import os
-  
-
 
 def aimar():
-    import random
-
     # zenbaki onartuak jokoan
     zenbakiak = ('0','1','2','3','4','5','6','7','8','9')
 
@@ -28,7 +23,7 @@ def aimar():
     saiakera = input("Zartu zure proposamena: ")
 
     #modo dios:
-    #print(kodea)
+    print(kodea)
 
     # "saiakera" "kodea"rekin komparatu, zuzenak eta kointzidentziak erakutzi
     intentos = 1
@@ -50,13 +45,9 @@ def aimar():
     if saiakera == "fin":
         print("kodea", kodea, " zen")
     else:
-        print("Oso ongi!! kodea", 
-        intentos, "intentotan asmatu duzu.")
-    
-
-
-
-    
+        print("\nOso ongi!! kodea", 
+        intentos, "intentotan asmatu duzu.\n")
+       
 i = 1
 while i == 1:
     
@@ -77,10 +68,8 @@ while i == 1:
     print("**                                                    ** ")
     print("******************************************************** ")
     print("******************************************************** ")
-     
-    print ("Elige una opcion")
  
-    opcion = int(input("Aukeratu: "))
+    opcion = int(input("Aukeratu nahi duzuna: "))
  
     if opcion == 1:
         juegoAimar = aimar()
@@ -90,7 +79,7 @@ while i == 1:
     elif opcion == 3:
         print("Opcion 3")
         break
-    elif opcion == 4:
+    elif opcion == 0:
         break
     else:
         print ("Introduce un numero entre 1 y 3")
