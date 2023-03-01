@@ -23,7 +23,7 @@ def aimar():
     saiakera = input("Zartu zure proposamena: ")
 
     #modo dios:
-    print(kodea)
+    #print(kodea)
 
     # "saiakera" "kodea"rekin komparatu, zuzenak eta kointzidentziak erakutzi
     intentos = 1
